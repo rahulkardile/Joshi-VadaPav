@@ -60,12 +60,20 @@ body {
   padding: 0 0 0 30px;
 }
 
-.main-section-1 h4,
-h2 {
+.main-section-1 h4 {
   color: white;
   margin: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
   padding: 0;
 }
+
+.main-section-1 h2 {
+    color: white;
+    margin: 15px 0;
+    font-size: 38px;
+    padding: 0;
+  }
 
 .main-section-1 button {
   padding: 10px 35px;
