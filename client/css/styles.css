@@ -109,9 +109,60 @@ button {
   font-size: 1.2rem;
   margin: 0;
   padding: 0;
-margin-top: 8px;
+  margin-top: 8px;
 }
 
 .main .about button {
   width: 26%;
+}
+
+.card-main {
+  padding: 35px;
+  text-align: center;
+}
+
+.card-main h2 {
+  font-size: 32px;
+}
+
+.card-main h2 span {
+  color: #ffc637;
+}
+
+.cards {
+  width: 100%;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 49px;
+}
+
+.card {
+  width: 270px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+.card h3 {
+  padding: 0;
+  margin: 0;
+  color: #ffc637;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+.card button {
+  margin: 13px;
+  padding: 10px 40px;
 }
